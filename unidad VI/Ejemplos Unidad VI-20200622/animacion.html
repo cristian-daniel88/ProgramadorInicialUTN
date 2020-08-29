@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Texto animado</title>
+<style>
+div {
+   -webkit-animation-name: 'movimiento-diagonal';
+   -webkit-animation-duration: 5s;
+   -webkit-animation-iteration-count: 10;
+   position:relative;
+}
+
+@-webkit-keyframes 'movimiento-diagonal' {
+
+   from {
+	background-color:#FF0000;
+      left: 0;
+      top: 0;
+   }
+   
+   to {
+   background-color:#00FF00;
+      left: 100px;
+      top: 100px;
+   }
+} 
+
+
+
+</style>
+</head>
+
+<body>
+<div> Div animado. </div>
+
+</body>
+</html>

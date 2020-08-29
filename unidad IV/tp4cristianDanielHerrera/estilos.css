@@ -1,0 +1,212 @@
+body {
+
+    background: darkgray;
+
+}
+
+header, section, footer {
+
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+/*-------header--------*/
+
+header {
+
+    height: 110px;
+    background: #ff8566;
+    margin-bottom: 10px;
+
+}
+
+#marca {
+
+    width: 350px;
+    height: 55px;
+    background: #900;
+    float: left;
+
+}
+
+#botonera {
+
+    width: 600px;
+    height: 55px;
+    background-color: #511;
+    clear: both;
+
+}
+
+/*-------------inicio---------------------*/
+
+#inicio {
+
+    height: 555px;
+    background:#0066ff ;
+
+}
+#columnaprincipal {
+    
+    width: 550px;
+    height: 500px;
+    background: #009;
+    float: left;
+    margin-bottom: 10px;
+
+}
+
+#comentario {
+
+    width: 550px;
+    height: 80px;
+    background: #309;
+}
+
+#tituloprincipal {
+
+    width: 550px;
+    height: 420px;
+    background: #407;
+    clear: both;
+
+}
+
+#logo {
+
+    width: 400px;
+    height: 500px;
+    background: #090;
+    float: right;
+    margin-bottom: 10px;
+
+}
+
+#banner{
+
+   height: 35px;
+   background-color:#000;
+   width: 960px;
+   clear: both;
+   margin-bottom: 10px;
+
+}
+
+/*-------------info----------*/
+
+#info{
+   
+    height: 490px;
+    background:#ffffff;
+
+}
+#filavertical1{
+
+    width: 550px;
+    height: 435px;
+    background: #cd853f;
+    float: left;
+    margin-bottom: 10px;
+
+}
+
+#filavertical2 {
+
+    width: 400px;
+    height: 435px;
+    background: #ffc0cb;
+    float: right;
+}
+
+#foto{
+
+  width: 150px;
+  height: 150px;
+  background: #a9a9a9;
+  float: left;
+
+}
+
+#cv{
+
+    width: 340px;
+    height: 435px;
+    float: right;
+
+}
+#banner{
+
+   height: 35px;
+   background-color: #000;
+   width: 960px;
+   clear: both;
+   margin-bottom: 10px;
+}
+/*----------------campus----------------*/
+
+#campus {
+   
+    height: 565px;
+    background: #8b0000;
+    
+}
+#titulologin {
+
+    height: 80px;
+}
+
+#comentariologin {
+     float: left;
+     width: 450px;
+     height: 430px;
+     background: #243504;
+     margin-right: 30px;
+}
+
+#login {
+
+    float: left;;
+    width: 350px;
+    height:430px ; 
+    background:#0000ff;
+    margin-bottom: 10px;
+  
+}
+
+
+/*-----contacto----*/
+
+#contacto {
+
+    height: 515px;
+    background: #5f9ea0;
+    margin-bottom: 10px;
+
+}
+#tituloformulario {
+
+    height: 80px;
+}
+
+
+#formulario {
+
+    width: 550px;
+    height: 400px;
+    background: #dc143c;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    
+}
+/*------footer------*/
+
+footer {
+
+  height: 100px;
+  background: #551111;
+  margin-top: 20px;
+ 
+}

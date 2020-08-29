@@ -1,0 +1,151 @@
+body {
+    background: rgb(25,62,194);
+    background: linear-gradient(5deg, rgba(25,62,194,1) 0%, rgba(3,14,76,1) 66%);
+}
+
+#contenedor {
+    
+    height: auto;
+}
+
+#cabecera_ser {
+    height: auto;
+    background: rgb(3,38,76);
+    background: linear-gradient(5deg, rgba(3,38,76,1) 0%, rgba(60,32,58,1) 1%, rgba(194,17,17,0.9472163865546218) 50%, rgba(114,22,42,1) 99%, rgba(3,30,76,1) 100%);
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#cab1 {
+    height: auto;
+    background: rgb(3,38,76);
+    background: linear-gradient(5deg, rgba(3,38,76,1) 0%, rgba(60,32,58,1) 1%, rgba(194,17,17,0.9472163865546218) 50%, rgba(114,22,42,1) 99%, rgba(3,30,76,1) 100%); 
+    box-sizing: border-box;
+    padding: 2px 20px;
+    border-radius: 10px;
+    box-shadow: 7px 7px 7px #cccccc     
+}
+
+h1 {
+
+    font-size: 45px;
+    color: #f5f5dc;
+    text-align: center;
+}
+
+
+#cab2 {
+   
+    height: auto;
+    
+}
+
+h3 {
+    margin-left: 20px;
+    margin-top: 10px;
+    color:  #f5f5dc;
+}
+
+
+
+#contenido_ser {
+    background: rgb(3,38,76);
+    background: linear-gradient(5deg, rgba(3,38,76,1) 0%, rgba(60,32,58,1) 1%, rgba(194,17,17,0.9472163865546218) 50%, rgba(114,22,42,1) 99%, rgba(3,30,76,1) 100%);
+    height: auto;
+}
+
+h2 {
+    color:  #f5f5dc;
+}
+
+#cont2 {
+    margin-bottom: 15px;
+}
+
+#cont4 {
+    background: rgb(25,62,194);
+    background: linear-gradient(5deg, rgba(25,62,194,1) 0%, rgba(3,14,76,1) 0%);
+}
+
+#pie_ser {
+    margin-top: 10px;
+    background: rgb(25,62,194);
+    background: linear-gradient(5deg, rgba(3,14,76,1) 0%, rgba(3,14,76,1) 66%);
+    height: auto;
+    border-radius: 10px;
+}
+
+h5 {
+    color:  #f5f5dc;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#pie2 {
+    background: #ff0000;
+    border-radius: 10px;
+}
+
+
+
+input.form-control, textarea.form-control {
+    margin-bottom: 5px;
+    background: rgb(25,62,194);
+    background: linear-gradient(5deg, rgba(25,62,194,1) 0%, rgba(3,14,76,1) 66%);
+   
+       
+}
+
+
+input.form-control:focus, textarea.form-control:focus {
+    margin-bottom: 5px;
+    background: rgb(25,62,194);
+    background: linear-gradient(5deg, rgba(25,62,194,1) 0%, rgba(3,14,76,1) 66%);
+    color: #f5f5dc;
+    
+}
+
+input.form-control::placeholder, textarea.form-control::placeholder{
+    color: #f5f5dc;
+}
+
+
+.boton_azul {
+    background: rgb(25,62,194);
+    background: linear-gradient(5deg, rgba(25,62,194,1) 0%, rgba(3,14,76,1) 66%);
+    margin-bottom: 15px;
+    color: #f5f5dc;
+}
+
+.boton_azul:hover {
+    background: rgb(25,62,194);
+    background: linear-gradient(5deg, rgba(25,62,194,1) 0%, rgba(3,14,76,1) 66%);
+    color:#ff0000;
+}
+
+form {
+  
+    margin: auto;
+}
+
+h2 {
+    margin-left: 150px;
+}
+
+textarea {
+    resize: none;
+}
+
+img {
+    margin-top: 50px;
+}
+
+#card {
+    margin: auto;
+}
+
+footer {
+    margin-top: 10px;
+    background: rgb(25,62,194);
+    background: linear-gradient(5deg, rgba(3,14,76,1) 0%, rgba(3,14,76,1) 66%);
+}

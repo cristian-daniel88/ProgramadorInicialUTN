@@ -1,0 +1,56 @@
+#contenedor {
+    background: #7fffd4;
+    height: 800px;
+}
+
+#cabecera_ser {
+    background: #0000ff;
+    height: 200px;
+}
+
+#cab1 {
+    background: #d2691e;
+}
+
+#cab2 {
+    background: #dc143c;
+}
+
+#cab3 {
+    background: #a9a9a9;
+}
+
+#contenido_ser {
+    background: #a52a2a;
+    height: 500px;
+}
+
+#cont1 {
+    background: #9932cc;
+}
+
+#cont2 {
+    background: #ff1493;
+}
+
+#cont3 {
+    background: #1e90ff;
+}
+
+#cont4 {
+    background: #228b22;
+}
+
+#pie_ser {
+    background: #7fff00;
+    height: 100px;
+}
+
+#pie1 {
+background: #008000;
+}
+
+#pie2 {
+background: #4b0082;
+}
+

@@ -1,0 +1,458 @@
+body {
+    background: rgb(25,62,194);
+    background: linear-gradient(5deg, rgba(25,62,194,1) 0%, rgba(3,14,76,1) 66%);
+}
+
+header, section, footer, aside {
+
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+/*-------header--------*/
+
+header {
+
+    height: 110px;
+    background: rgb(3,38,76);
+    background: linear-gradient(5deg, rgba(3,38,76,1) 0%, rgba(60,32,58,1) 1%, rgba(194,17,17,0.9472163865546218) 50%, rgba(114,22,42,1) 99%, rgba(3,30,76,1) 100%);
+    border-radius: 10px;
+    margin-bottom: 10px;
+
+}
+
+#marca {
+   
+    width: 350px;
+    height: 55px;
+    background: rgb(3,38,76);
+    background: linear-gradient(5deg, rgba(3,38,76,1) 0%, rgba(60,32,58,1) 1%, rgba(194,17,17,0.9472163865546218) 50%, rgba(114,22,42,1) 99%, rgba(3,30,76,1) 100%);
+    float: left;
+    box-sizing: border-box;
+    padding: 2px 20px;
+    border-radius: 10px;
+    box-shadow: 7px 7px 7px #cccccc;
+    
+}
+
+h1 {
+    margin-top: 0;
+ 
+    font-size: 45px;
+    color: #f5f5dc;
+}
+
+#botonera {
+
+    width: 550px;
+    height: 55px;
+    
+    clear: both;
+
+}
+
+#botonera ul  {
+
+    margin: 0;
+    padding: 0;
+    list-style-type: none;    
+}
+
+#botonera ul li {
+    display: inline;
+}
+
+#botonera ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    padding:18px  35px;
+    display: inline-block;
+    font-size: 20px;
+    box-sizing: border-box;
+   
+}
+
+#botonera ul li a:hover {
+    background-color: rgba(10, 10, 56,0.9);;
+    height: 55px;
+    color: rgb(194, 17, 17);
+    border-radius: 15px;
+}
+
+/*-------------inicio---------------------*/
+
+#inicio {
+    margin-top: 10px;
+    height: 600px;
+    background-image: url("imagenes/flag.png");
+    background-size: cover;
+    background-position: center;
+   
+    
+    
+}
+
+
+
+#columnaprincipal {
+    
+    width: 550px;
+    height: 520px; 
+    float: left;
+   
+}
+
+#comentario {
+
+    width: 550px;
+    height: 80px;
+    box-sizing: border-box;
+    padding-top: 20px;
+    
+}
+
+#comentario div {
+    background: rgb(245, 245, 220,0.1);
+    height: 40px;
+    
+}
+
+h2 {
+    margin-top: 0;
+    margin-left: 10px;
+    font-size: 30px;
+}
+
+#tituloprincipal {
+
+    width: 550px;
+    height: 440px;
+    clear: both;
+    box-sizing: border-box;
+    padding-top: 25px;
+
+}
+
+
+h3 {
+    margin-top: 25px;
+    margin-left: 10px;
+    font-size: 90px;
+    text-shadow: 0 1px #808d93, -1px 0 #cdd2d5, -1px 2px #808d93, -2px 1px #cdd2d5, -2px 3px #808d93, -3px 2px #cdd2d5, -3px 4px #808d93, -4px 3px #cdd2d5, -4px 5px #808d93, -5px 4px #cdd2d5, -5px 6px #808d93, -6px 5px #cdd2d5, -6px 7px #808d93, -7px 6px #cdd2d5, -7px 8px #808d93, -8px 7px #cdd2d5, 2px 25px 11px rgba(0,0,0,0);
+ 
+}
+#logo {
+
+    width: 410px;
+    height: 520px;
+    float: left;
+   
+    background-image: url(imagenes/london.png);
+    background-size: cover;
+
+}
+
+
+
+#banner1{
+
+   height: 80px;
+   background: rgb(25,62,194);
+   background: linear-gradient(5deg, rgba(3,14,76,1) 0%, rgba(3,14,76,1) 66%);
+   width: 960px;
+   clear: both;
+   box-sizing: border-box;
+   padding-top: 10px;
+   padding-left: 15px;
+   padding-right: 15px;
+   
+   
+}
+
+#bannerlogo {
+    float: left;
+    width: 30px;
+    height: 50px;
+    background-image: url("imagenes/map.svg");
+    filter: invert(0.4) sepia(1) hue-rotate(20deg) saturate(1000%);
+    margin-right: 155px;
+}
+#bannerh4 {
+    float: left;
+ 
+}
+h4 {
+   
+   font-size: 40px;
+   display: inline;
+   color: #f5f5dc;
+   
+}
+
+#bannerlogo2 {
+    float: right;
+    width: 30px;
+    height: 50px;
+    background-image: url("imagenes/map.svg");
+    filter: invert(0.4) sepia(1) hue-rotate(20deg) saturate(1000%);
+    
+}
+
+/*-------------info----------*/
+
+#info{
+    
+    height: 435px;
+    background: rgb(3,38,76);
+    background: linear-gradient(5deg, rgba(3,38,76,1) 0%, rgba(60,32,58,1) 1%, rgba(194,17,17,0.9472163865546218) 50%, rgba(114,22,42,1) 99%, rgba(3,30,76,1) 100%);
+}
+#filavertical1{
+
+    width: 520px;
+    height: 425px; 
+    float: left;
+    
+    box-sizing: border-box;
+    padding-top: 80px;
+    padding-left: 20px;
+    padding-right: 10px;
+    border-right: 1px outset black;
+    
+    
+}
+
+#filavertical1 h5 {
+    margin-top: 0;
+    margin-left: 20px;
+    font-size: 30px;  
+    text-align: left;
+    color: #f5f5dc;
+    margin-bottom: 0;
+    
+}
+
+#filavertical1 ul {
+    margin-left: 0;
+}
+
+#filavertical1 li {
+    color: #f5f5dc;
+    font-size: 20px;
+}
+
+#filavertical2 {
+
+    width: 400px;
+    height: 435px; 
+    float: left;
+    box-sizing: border-box;
+    padding-top: 80px;
+    padding-left: 20px;
+    
+   
+    
+}
+
+#foto{
+
+  width: 150px;
+  height: 150px;
+  float: left;
+  margin-right: 15px;
+  margin-top: 10px;
+    
+}
+
+#foto div {
+   width: 100%;
+   height: 100%;
+   background-image: url("imagenes/clara.jpg");
+   background-size: cover;
+   background-position-x: 5px;
+   background-position-y: 5px ;
+     
+}
+
+#cv p {
+    margin-top: 0;
+    color: blanchedalmond;
+    font-size: 20px;
+
+    
+}
+
+#cv p:First-letter{
+    color: beige;
+    font-size: 30px;
+}
+
+
+
+
+/*----------------campus----------------*/
+
+#campus {
+    
+    height: 350px;
+    background: rgb(3,38,76);
+    background: linear-gradient(5deg, rgba(3,38,76,1) 0%, rgba(60,32,58,1) 1%, rgba(194,17,17,0.9472163865546218) 50%, rgba(114,22,42,1) 99%, rgba(3,30,76,1) 100%);
+    
+}
+#titulologin {
+    
+    height: 40px;
+    box-sizing: border-box;
+    padding-top: 30px;
+   
+    
+}
+#titulologin h5 {
+    font-size: 30px;
+    color: #f5f5dc;
+    text-align: center;
+    margin-top: 0px;
+    
+}
+
+#comentariologin {
+     margin-top: 20px;
+     margin-left:280px;
+     width: 450px;
+     height: 100px;
+     box-sizing: border-box;
+     padding-top: 10px;
+     
+}
+#comentariologin p {
+    font-size: 20px;
+    color: #f5f5dc;
+}
+
+#comentariologin a {
+    
+    color: #c0c0c0;
+    margin-left: 180px;
+   
+    
+}
+
+#login {
+
+    clear: both;;
+    width: 262px;
+    height: 190px ; 
+    box-sizing: border-box;
+    padding-right: 30px;
+    padding-top: 10px;
+    margin: auto;
+    margin-top: 0px;
+    
+  
+}
+
+#login li {
+    list-style-type: none;
+    color: #f5f5dc;
+}
+#login li button {
+    margin-left: 65px;
+    color: #f5f5dc;
+    background: rgb(25,62,194);
+    background: linear-gradient(5deg, rgba(25,62,194,1) 0%, rgba(3,14,76,1) 66%);
+}
+
+/*-----contacto----*/
+
+#contacto {
+    
+    height: 555px;
+    background: rgb(3,38,76);
+    background: linear-gradient(5deg, rgba(3,38,76,1) 0%, rgba(60,32,58,1) 1%, rgba(194,17,17,0.9472163865546218) 50%, rgba(114,22,42,1) 99%, rgba(3,30,76,1) 100%);
+   
+
+}
+#tituloformulario {
+
+    height: 34px;
+    
+}
+
+#tituloformulario h5 {
+    font-size: 30px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    color: #f5f5dc;
+    text-align: left;
+    text-indent: 40px;
+
+}
+
+
+#formulario {
+
+    width: 400px;
+    height: 400px;
+    float: left;
+    margin: auto; 
+   
+}
+
+
+#formulario li {
+    list-style-type: none;
+    margin-top: 10px;
+    color: #f5f5dc;
+    
+    
+}
+#formulario input {
+    width: 300px;
+}
+
+#formulario textarea {
+    resize: none;
+}
+
+#formulario li button  {
+    margin-left: 250px;
+    background: rgb(25,62,194);
+    background: linear-gradient(5deg, rgba(25,62,194,1) 0%, rgba(3,14,76,1) 66%);
+    color: #f5f5dc;
+}
+
+#telefono {
+    width: 250px;
+    height: 400px;
+    
+    float: left;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    margin-left: 80px;
+    margin-right: 95px;
+    background-image: url("imagenes/phone-box-151130_1280.png");
+    background-size: cover;
+    
+    filter: brightness(0.8);
+    
+}
+
+ 
+
+/*------footer------*/
+
+footer {
+  
+  height: 100px;
+  background: rgb(25,62,194);
+   background: linear-gradient(5deg, rgba(3,14,76,1) 0%, rgba(3,14,76,1) 66%);
+  margin-top: 10px;
+  box-sizing: border-box;
+  padding-top: 30px;
+  color: beige;
+  text-indent: 400px;
+  border-radius: 10px;
+ 
+}

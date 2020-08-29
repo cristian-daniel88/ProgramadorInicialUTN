@@ -1,0 +1,113 @@
+@-webkit-keyframes nube {
+
+    from {
+      left: 100px;
+	  opacity: 1;
+      
+    }
+
+    to {
+      left: 300px;
+      opacity: 0;
+    }
+
+ } 
+ 
+ 
+		
+ 
+ @-webkit-keyframes mano2 {
+	0% {	 
+		-webkit-transform: rotate(0deg) translate(0px,0px);
+	}
+	100% {
+		-webkit-transform: rotate(-60deg) translate(0px,0px);	
+	}
+}
+ 
+ 
+ #manoderecha{
+ 	position: absolute;
+	top:250px;
+	left:279px;
+	width:-10px;
+	
+	-webkit-animation-name: mano;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-iteration-count: infinite;
+	-webkit-animation-direction: alternate; 
+	-webkit-animation-timing-function: ease-in;
+ }
+ 
+ #manoizquierda{
+ 	position: absolute;
+	top:250px;
+	left:340px;
+	width:8px;
+	
+	-webkit-animation-name: mano2;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-iteration-count: infinite;
+	-webkit-animation-direction: alternate; 
+	-webkit-animation-timing-function: ease-in;
+ }
+ 
+ #container{		
+	background: #666 url(images/fondo-muneco2.jpg) no-repeat;
+	width: 600px;
+	height: 400px;		
+	position: relative;	
+}
+
+#situacion {
+		width: 200px;
+		position: absolute;
+		left: 300px;
+		top: 200px;
+} 
+
+
+#nube{
+	position:relative;
+	-webkit-animation-name: nube;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-iteration-count: infinite;
+	-webkit-animation-direction: alternate; 
+	-webkit-animation-timing-function: ease-in;
+
+}
+
+@-webkit-keyframes hojas{
+		   	from {
+				top: 150px;
+				opacity: 1;
+			}
+			to {
+				top: 400px;
+				opacity: 0;
+			}
+		}
+@-webkit-keyframes hoja{
+	0%   { -webkit-transform: rotate(-180deg) translate(0px, 0px);}
+	100% { -webkit-transform: rotate(180deg) translate(10px, 75px);}
+}
+#hoja div {
+			position: absolute;
+			top: -40px;
+			-webkit-animation-name: hoja, hojas;
+			-webkit-animation-iteration-count: infinite; 
+			-webkit-animation-direction: normal; 
+			-webkit-animation-timing-function: ease-in;
+		}
+.hojas {	
+			position: absolute;	
+		}
+.hojas.f1 {
+			left: 40px;
+			-webkit-animation-duration: 5s;	
+		}
+.hojas.f2 {
+			font-size: 1.8em;
+			left: 100px;
+			-webkit-animation-duration: 7s;	
+		}

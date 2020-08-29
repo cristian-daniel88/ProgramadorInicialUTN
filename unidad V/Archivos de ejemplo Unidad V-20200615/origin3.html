@@ -1,0 +1,31 @@
+<html>
+<head>
+<title>Propiedad Background origin</title>
+   <style>
+
+	.mifondo{
+	border: 5px dotted #c83;
+	padding: 10px;
+	background-image: url(fondo.png);
+	background-repeat: no-repeat;
+	margin: 20px 0;
+	background-color: #ff0;
+	width:500px;
+	height:260px;
+	}
+
+   #pruebasfondo3{
+   -moz-background-origin: content;
+   -webkit-background-origin: content;
+   background-origin: content-box;
+} 
+   </style>
+</head>
+<body>
+   <div id="pruebasfondo3" class="mifondo">
+      Elemento con backgroud-origin border
+   </div>
+
+  
+</body>
+</html> 

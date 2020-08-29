@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Texto con sombra</title>
+<style>
+div {
+   -webkit-animation-name: movimiento-diagonal;
+   -webkit-animation-duration: 5s;
+   -webkit-animation-iteration-count: 10;
+   position:relative;
+}
+
+#forma {
+	width:200px;
+	height:200px;
+	background-color:#C00;
+	position:relative;
+}
+@-webkit-keyframes 'movimiento-diagonal' {
+   from {
+	   width:800px;
+      left: 0px;
+      top: 0px;
+   }
+   
+   to {
+	   width:500px;
+      left: 100px;
+      top: 100px;
+   }
+} 
+
+
+</style>
+</head>
+
+<body>
+<div id="forma"> Div animado. </div>
+
+</body>
+</html>

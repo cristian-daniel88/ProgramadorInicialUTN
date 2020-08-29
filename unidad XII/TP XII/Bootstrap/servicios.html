@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos_servicios.css">
+    <link rel="stylesheet" href="los archivos de icomoon que sirven/style.css">
+</head>
+<body>
+    <div class="container" id="contenedor">
+        <header class="row" id="cabecera_ser">
+            <div class="col-lg-5 col-sm-6" id="cab1">
+                 <h1>Teacher Clarita</h1>    
+            </div>
+            <div class="col-lg-6 col-sm-6"></div>
+            <div class="col-lg-6 col-sm-6" id="cab2">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light" id="botonera-servicios" >
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu-principal" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="menu-principal">
+                      
+                      <ul class="navbar-nav mr-auto mt-2 mt-lg-0" >
+                        <li class="nav-item active">
+                          <a class="nav-link" href="#">Servicios <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="../index.html#inicio">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html#info">Info</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html#campus">Campus</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html#contacto">Contacto</a>
+                        </li>
+                      
+                      </ul>
+                     
+                    </div>
+                  </nav>
+            </div>
+        </header>
+        <section class="row" id="contenido_ser">
+            <div class="col-md-6" id="cont1">
+                <h2>Inscribite</h2>
+                <form>
+                    <input type="text" placeholder="Nombre y Apellido" maxlength="50" required class="form-control">
+                    <input type="email" placeholder="Correo Electrónico" maxlength="50" required class="form-control">
+                    <input type="number" placeholder="Edad" min="5" max="110" required class="form-control">
+                    <textarea placeholder="Consulta" rows="6" required class="form-control"></textarea>
+                    <input type="submit" class="btn boton_azul btn-block">
+                </form>
+            </div>
+            <div class="col-md-6" id="cont2">
+                <img src="../imagenes/flag.png" class="img-fluid">
+            </div>
+            <div class="col-sm-7  col-lg-5" id="cont3">
+                <!-- inicio de card-->
+                <div class="card" style="width: 18rem;" id="card">
+                    <img src="../imagenes/clara.jpg~" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Su nombre es Clara. Ella nació Farnham, Surrey, Reino Unido. Ella es Profesora de Inglés</p>
+                      <a href="#" class="btn btn-primary" data-toggle="modal"   data-target="#mas-info-clara">Más Info</a>
+                    </div>
+                  </div>
+                  <!-- final de card-->
+                  <!--inicio modal-->
+                    <!-- Modal -->
+                <div class="modal fade" id="mas-info-clara" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">mi e-mail es: yourteacherclarita24@gmail.com</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        </div>
+                        <div class="modal-body">
+                        <!-- <img src="../imagenes/phone-box-151130_1280.png" class="img-fluid" alt=""> -->
+                        </div>
+                       
+                    </div>
+                    </div>
+                </div>
+                  <!--final modal-->
+            </div>
+            <div class="col-sm-4  col-lg-6 offset-lg-1" id="cont4">
+                <!--inicio de carrucel-->
+                    <div class="carousel slide" id="migaleria" data-ride="carousel" data-interval="3000">
+                        <!-- inicio indicador-->
+                        <ol class="carousel-indicators">
+                            <li data-target="#migaleria" data-slide-to="0" class="active"></li>
+                            <li data-target="#migaleria" data-slide-to="1"></li>
+                            <li data-target="#migaleria" data-slide-to="2"></li>
+                        </ol>
+                        <!--fin indicador-->
+                        <div class="carousel-inner" >
+                            <div class="carousel-item active">
+                                    <img src="../img2/camping-4609879_640.jpg" class="img-fluid img-thumbnail" alt="">
+                                <div class="carousel-caption">
+                                    <h3>Clases de Inglés</h3>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img2/london-530055_640.jpg" class="img-fluid img-thumbnail" id="img-telefono" alt="">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img2/stonehenge-101801_640.jpg" class="img-fluid" id="img-bus" alt="">
+                            </div>
+                        </div>
+                       <!--inicio de flecha de desplazamiento-->
+                   <div id="galeria">
+                    <a href="#migaleria" data-slide="prev" class="carousel-control-prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a href="#migaleria" data-slide="next" class="carousel-control-next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                   </div>
+                   <!-- fin de flecha de desplazamiento-->
+                    </div>
+                <!-- final de carrucel-->
+            </div>
+            <div class="col-sm-7  col-lg-5"></div>
+            <div class="col-sm-4  col-lg-6 offset-lg-1" id="cont6">
+                  
+            </div>
+        </section>
+        <footer class="row" id="pie_ser">
+            <div class="col-lg-6 col-sm-6" id="pie1">
+                <h5>Teacher Clarita 2020</h5>
+            </div>
+            <div class="col-lg-6 col-sm-6" id="pie2">
+                <div>
+                <a href="#"><span class="icon-facebook"></span></a>
+                <a href="#"><span class="icon-instagram"></span></a>
+                <a href="#"><span class="icon-whatsapp"></span></a>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>    
+</body>
+
+</html>
+
+

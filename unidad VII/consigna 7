@@ -1,0 +1,3 @@
+Consignas:
+Prompt()
+Realice un cuestionario simple de cinco preguntas al usuario, donde el valor de las respuestas proporcionadas sea guardado en variables y que al finalizar se muestren dentro del cuerpo de la página.

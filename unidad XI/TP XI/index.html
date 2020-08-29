@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>TP 11 Cristian Daniel Herrera</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="estilos.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript">
+        var nombre = prompt('Hola! Bienvenido a Clases de Inglés Online. ¿Tu nombre?')
+        
+        var apellido = prompt('¿Apellido?')
+        var ciudad = prompt('¿En que Ciudad/Localidad vives?')
+        var pais = prompt('¿De que País?');
+        var ocupacion = prompt('¿Ocupación?')
+    </script>
+
+</head>
+
+<body>
+    <header>
+        <div id="marca">
+            <h1>Teacher Clarita</h1>
+        </div>
+        <nav id="botonera">
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#info">Info</a></li>
+                <li><a href="#campus">Campus</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio">
+
+        <div id="columnaprincipal">
+            <div id="comentario">
+                <div>
+                    <h2>Invierte en tu futuro aprendiendo Inglés</h2>
+                </div>
+
+            </div>
+            <div id="tituloprincipal">
+                <h3>Cursos de Inglés Online</h3>
+            </div>
+        </div>
+        <div id="logo"></div>
+
+        <aside id="banner1">
+            <div id="bannerlogo"></div>
+            <div id="bannerh4">
+                <h4 id="b1">Clarita, Profesora de Inglés</h4>
+            </div>
+            <div id="bannerlogo2"></div>
+        </aside>
+
+
+    </section>
+
+    <section id="info">
+
+        <div id="filavertical1">
+            <h5>Info</h5>
+            <ul>
+                
+                <li id="identidad">Hola! <script>document.write(nombre.fontcolor('#daa520')+'')</script>
+                    <script>document.write(apellido.fontcolor('#daa520') +'.')</script>
+                </li><br>
+                <li>Las clases son por Skype ó Zoom.</li><br>
+                <li>Aprenderas a comprender y hablar fluido el Inglés, como también su gramática.</li><br>
+                <li>Puedes prepararte con nuestra metodología para exámenes internacionales, para aplicar en trabajos ó
+                    en becas .</li><br>
+                <li>Correción de textos, exámenes </li><br>
+                <li>Hay promociones para los que viven en <script>document.write(ciudad.fontcolor('#daa520') + '')</script>
+                    <script>document.write('(' + pais.fontcolor('#daa520') + ').')</script>
+                    
+                </li><br>
+                <li>Hay promociones para el <script>document.write(ocupacion.fontcolor('#daa520') + '.' )</script></li>
+            </ul>
+        </div>
+        <div id="filavertical2">
+            <div id="foto">
+                <div>
+                </div>
+
+            </div>
+            <div id="cv">
+                <p>Su nombre es Clara. Ella nació Farnham, Surrey, Reino Unido. A los 21 años se mudo a Australia y en
+                    ese país hizo un curso llamado CELTA (Certificate of English Language Teching to Adults).
+                    Actualmente ella vive en Buenos Aires, Argentina, donde dicta clases a los locales y de otros paises
+                    de forma online.</p>
+            </div>
+        </div>
+
+    </section>
+    <aside id="banner1">
+        <div id="bannerlogo"></div>
+        <div id="bannerh4">
+            <h4 id="b2">   &nbsp &nbsp Estudía con nosotros</h4>
+        </div>
+        <div id="bannerlogo2"></div>
+    </aside>
+
+    <section id="campus">
+
+
+        <div id="titulologin">
+            <h5>Campus</h5>
+        </div>
+       
+        <nav id="botonera_campus" class="botonera__campus">
+            <ul>
+                <li id="login-li" class="login-li" style="display: inline-block"><a href="#campus" >Login</a></li>
+                <li id="tutorial-li"><a href="#campus">Tutoriales</a></li>
+                <li id="choice-li"><a href="#campus">Choice</a></li>
+            </ul>
+        </nav>
+     
+
+        <div id="login" class="login_class" >
+
+            <p>Esta seccion es solo para alumnos ya registrados, si quieres estudiar con nosotros <a href="Bootstrap/servicios.html" target="new">haz click aquí.</a></p>
+         
+            <form method="" action="#">
+                <ul>
+                    <li>Usuario <input type="text" name="usuario" placeholder="Introduce nombre de Usuario" value="" required></li><br>
+                    <li>Contraseña<input type="password" name="password" placeholder="Introduce Contraseña" required></li><br>
+                    <li><button>Entrar</button></li><br>
+                </ul>
+            </form>
+        </div>
+
+        <div id="tutoriales" class="tutoriales_" style="display: none">
+            <!-- <p><a href="#campus" onclick="choicee()">click</a></p> -->
+               <img id="tobe" src="imagenes/tobe.png" alt="" style="display: none">
+               <img id="do" src="imagenes/do.jpg" alt="" style="display: none">
+               <img id="have" src="imagenes/have.png" alt="" style="display: none">
+               <img id="objetos" src="imagenes/cosas.png" alt="" style="display: none">
+               <img id="oficios" src="imagenes/oficio.jpg" alt="" style="display: none">
+        </div>
+
+        <div id="choice" class="choice_" style="display: none">
+              <div>
+                <p>Debes unir las palabras que tienen el mismo significado, del lado izquierdo tenes palabras en ingles y en el otro lado misma palabras pero en español.&nbsp <a href="#campus" onclick="choice()">Jugar!</a></p>
+              </div>
+              <div id="contenedor-jugar0">
+                <p style="display: inline-block">
+                    0- nurse         <br>
+                    1- apple                  <br>
+                    2- hairdresser          <br>
+                    3- employed &nbsp           <br> 
+                    4- orange                 <br>
+  
+                 </p>
+                 
+              </div>
+              <div id="contenedor-jugar1">
+                <p style="display: inline-block">
+                    a- empleado/a <br>
+                    b-enfermera/o  <br>
+                    c- manzana    <br>
+                    d- peluquero/a  <br> 
+                    e-naranja  
+    
+                 </p>
+              </div>
+            
+               <p id="ganador" style="display: none">OK</p>
+        </div>
+
+    </section>
+
+    <section id="contacto">
+        <aside id="banner1">
+            <div id="bannerlogo"></div>
+            <div id="bannerh4">
+                <h4 id="b3">&nbsp &nbsp Mandanos un mensaje</h4>
+            </div>
+            <div id="bannerlogo2"></div>
+        </aside>
+
+        <div id="telefono"></div>
+        <div id="formulario">
+            <form method="POST" action="#">
+
+        <div id="tituloformulario">
+            <h5>Contacto</h5>
+        </div>
+                 <ul>
+                     <li>Nombre</li><input type="text" name="nombre" placeholder="Su nombre " required>
+                     <li>Email </li><input type="email" name="email" placeholder="Su correo electrónico" required>
+                     <li>Teléfono</li><input type="number" name="telefono" placeholder="Su numero de télefono" required>
+                     <li>Mensaje</li><textarea name="mensaje" id="" cols="36" rows="12" placeholder="Dejanos un mensaje" required></textarea>
+                     <li><button type="submit" name="submit"  >Enviar</button></li>
+                 </ul>
+                 
+            </form>
+        </div>
+        
+            
+        </div>
+
+
+    </section>
+
+    <footer>
+        <p id="f1">Teacher Clarita 2020</p>
+    </footer>
+    <script type="text/javascript" src="funciones.js"></script>
+</body>
+
+</html>
+
+

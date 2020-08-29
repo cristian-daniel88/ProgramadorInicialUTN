@@ -1,0 +1,9 @@
+Desarrolla en HTML y CSS (etiqueta div + elementos semánticos HTML5) una estructura de maquetación con formato OnePage
+Elige el Model-box adecuado teniendo en cuenta las características de diseño. Se puedes, combina diferentes posicionamientos para lograr la estructura de diseño deseada.
+Incluir una hoja de estilo en cascada (css) externo con la declaración de estilo de textos y estructuras vinculada a la Web.
+Consideraciones generales:
+El sitio deberá ser diseñado para usuarios con una resolución de 1024 x 768 pixeles, motivo por el cual, se deberá pensar en este tamaño para evitar que exista una barra de desplazamiento horizontal (la caja de maquetación estándar para esa resolución es 960 px de ancho).
+No debe faltarle el título del documento al archivo HTML en la barra de títulos
+En los nombres de los archivos y/o carpetas, no deben haber espacios, ni acentos, ni caracteres que no sean letras, números o -, _
+Los estilos de texto deberán ser declarados desde el CSS
+El CSS deberá ser externo y vinculado al archivo .html

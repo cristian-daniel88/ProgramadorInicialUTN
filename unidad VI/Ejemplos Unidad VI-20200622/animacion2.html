@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Texto con sombra</title>
+<style>
+body {
+	background:#000;
+}
+#forma {
+   -webkit-animation-name: ejemplo;
+   -webkit-animation-duration: 5s;
+   -webkit-animation-iteration-count: 1;
+  /* -webkit-animation-direction: alternate;*/
+    width:500px;
+	height:100px;
+	position:relative;
+	background-color:#F9C;
+	left:100px;
+	
+}
+
+@-webkit-keyframes 'ejemplo' {
+   from {
+      left: 0px;
+	  	background-color:#390;
+		width:1px;
+		opacity:1;
+   }
+   
+   to {
+      left: 100px;
+      background-color:#F9C;
+	  width:500px;
+	  opacity:0;
+   }
+} 
+
+
+</style>
+</head>
+
+<body>
+<div id="forma"> Div animado. </div>
+
+</body>
+</html>

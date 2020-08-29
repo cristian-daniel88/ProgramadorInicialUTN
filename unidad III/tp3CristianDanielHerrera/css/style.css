@@ -1,0 +1,73 @@
+*{
+    font-family: Calibri;
+}
+
+body{
+  background-image: url("imagen/fondo.png");
+}
+
+h1{
+    text-align: center;
+    color: #FE2E9A;
+}
+
+h2{
+    color: #CC2EFA;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+   }
+
+
+.botonera-superior li {
+    display: inline-block;
+    margin-bottom: 15px;
+    }
+
+.botonera-superior li a {
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    background-color:#F3F781;
+    margin-bottom: 5px;
+    color:#FF4000;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    font-weight: bold;
+    border: solid 1px #FFBF00;
+    
+}
+
+.botonera-superior li a:hover{
+    background-color: #F5DA81;
+
+}
+
+.botonera-inferior li {
+    margin-bottom: 10px;
+}
+
+.botonera-inferior li a {
+    
+    display: inline-block;
+    width: 200px;
+    height: 40px;
+    background-color:#F5A9E1;
+    margin-bottom: px;
+    color:#6A0888;
+    text-decoration: none;
+    text-indent: 110px;
+    line-height: 40px;
+    font-weight: bold;
+    border: dotted 1px #BF00FF;
+}
+
+.botonera-inferior li a:hover{
+    background-color:#FE2E9A;   
+}
+ 
+
